@@ -4,6 +4,7 @@ h1 {
           padding: 0;
           margin-left: 22%;
           /* background-color: #f5b222; */
+          font-family: 'Bebas Neue', cursive;
 }
 
 body {
@@ -38,10 +39,7 @@ ul {
 }
 
 li {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+
 }
 
 li a {
@@ -55,12 +53,21 @@ li a {
 }
 
 li a:hover {
-          background-color: black;
+          background-color: gray;
           color: white;
 }
 
-.menu {
+ul.menu li {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Bebas Neue', cursive;
+}
 
+.contact {
+          padding: 20px;
+          line-height: 60px;
 }
 
 img {
@@ -80,4 +87,6 @@ img.float-left {
 p {
           float: left;
           /* padding: 0 0 0 20%; */
+          font-family: 'Libre Baskerville', serif;
+          font-size: 13px;
 }
